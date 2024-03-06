@@ -1,0 +1,47 @@
+.footer-container {
+	.footer-section {
+		margin-left: 370px;
+		padding-top: 47px;
+	}
+	background-color: #212731;
+	color: #ffffff;
+	h2 {
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;
+		text-transform: uppercase;
+
+		color: #ffffff;
+	}
+	.categories-menu li {
+		color: #b6bdc4;
+		padding-top: 18px;
+	}
+	.contact-menu li {
+		color: #b6bdc4;
+		padding-top: 18px;
+	}
+	.country-menu {
+		color: #b6bdc4;
+		background-color: #212731;
+		padding: 8px;
+
+		border: none;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 798px) {
+	.footer-container {
+		width: 110%;
+		.footer-section {
+			margin-left: 10px;
+
+			padding-bottom: 20px;
+		}
+	}
+}

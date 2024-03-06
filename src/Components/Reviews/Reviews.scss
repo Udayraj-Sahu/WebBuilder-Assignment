@@ -1,0 +1,23 @@
+.review-cont {
+	color: rgb(216, 132, 22);
+	background-color: #f3f9ff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 12px;
+	justify-content: center;
+	.rating {
+		font-weight: 400;
+		font: 'Inter';
+		font-size: 32px;
+		color: rgba(7, 71, 134, 1);
+
+		line-height: 48px;
+	}
+	.rating-words {
+		color: #074786;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+	}
+}

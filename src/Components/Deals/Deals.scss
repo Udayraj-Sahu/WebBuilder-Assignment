@@ -1,0 +1,67 @@
+.deals-cont {
+	border-radius: 12px;
+	margin-left: 62px;
+	.flexx {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.relatedDeal-img {
+		padding: 57px;
+	}
+	.deals-title {
+		color: #626e79;
+		text-align: center;
+
+		font-weight: 700;
+		font-size: 16px;
+		padding-top: 2px;
+		line-height: 24px;
+	}
+	.deals-desc {
+		color: #626e79;
+		font-size: 16px;
+		padding-top: 7px;
+		font-weight: 400;
+		line-height: 24px;
+		font-family: "Inter";
+	}
+	.deals-price {
+		padding-top: 2px;
+		.discount-price {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 28px;
+
+			color: #5c6874;
+		}
+
+		.original-price {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 20px;
+			/* identical to box height, or 143% */
+
+			color: #9fa9b3;
+		}
+		.discount-offer {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 20px;
+			/* identical to box height, or 154% */
+
+			color: #ef4c5d;
+		}
+	}
+
+	.viewmore-btn {
+		width: 76%;
+		padding-top: 15px;
+	}
+}

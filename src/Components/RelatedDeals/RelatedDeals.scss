@@ -1,0 +1,25 @@
+.deals-container {
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	margin-left: 20px;
+}
+
+.deals-heading {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 44px;
+	color: #2c384a;
+}
+
+@media screen and (max-width: 798px) {
+	.deals-heading{
+		font-size: 11px;
+		padding-top: 20px;
+	}
+	.deals-container{
+		display: flex;
+		flex-direction: column;
+	}
+}

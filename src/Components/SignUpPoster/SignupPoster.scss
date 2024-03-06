@@ -1,0 +1,24 @@
+.signup-container {
+	padding-bottom: 20px;
+	background-color: #fbfcfd;
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	.text {
+		font-family: "Inter";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 44px;
+
+		color: #5c6874;
+	}
+}
+
+@media screen and (max-width: 798px) {
+	.signup-container{
+	.text{
+		font-size: 26px;
+	}
+}
+}
