@@ -3,12 +3,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
-	overflow-y: hidden;
+
 	font-family: "Inter";
 }
 body {
 	background-color: #fbfcfd;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 .flex {
 	display: flex;
